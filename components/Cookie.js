@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Cookie = () => {
-    return(
+const Cookie = (props) => {
+    return( // JSX goes inside here
         <div>
-            <h2>Have a cookie because you are great!</h2>
+            <h2>Have {props.numberOfCookies} cookie, {props.name}, because you are great!</h2>
         </div>
     )
 };
