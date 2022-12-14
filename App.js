@@ -7,19 +7,17 @@ import Cookie from './components/Cookie';
 const App = () => {
 
     const names = ["Pius", "Kobi", "Spot", "Zero"];
+    const output = names.map( (nameFromArray) => {
+        return(
+            <Cookie name={nameFromArray} numberOfCookies={5} />
+        );
+    });
 
     return( // JSX goes in here!!  You can only have ONE element as the parent in there
         <div>
             <h1>Nicebot!</h1>
             <p>This is a paragraph with math: { Math.random() } </p>
-            {
-                // JS can go in here
-                names.map( (nameFromArray) => {
-                    return(
-                        <Cookie name={nameFromArray} numberOfCookies={10} />
-                    )
-                } )
-            }
+            { output }
         </div>
     );
 }
