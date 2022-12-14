@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "parcel": "^2.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "demo-w8d1-react-components-props-202212",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piuswong-multiverse/demo-w8d1-react-components-props-202212.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piuswong-multiverse/demo-w8d1-react-components-props-202212/issues"
+  },
+  "homepage": "https://github.com/piuswong-multiverse/demo-w8d1-react-components-props-202212#readme",
+  "description": ""
+}
