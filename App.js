@@ -12,12 +12,14 @@ const App = () => {
         <div>
             <h1>Nicebot!</h1>
             <p>This is a paragraph with math: { Math.random() } </p>
-            <Cookie 
-                name={names[0]} 
-                numberOfCookies={2} />
-            <Cookie 
-                name={names[1]} 
-                numberOfCookies={100} />
+            {
+                // JS can go in here
+                names.map( (nameFromArray) => {
+                    return(
+                        <Cookie name={nameFromArray} numberOfCookies={10} />
+                    )
+                } )
+            }
         </div>
     );
 }
